@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="xevo",
-    version="0.1",
+    version="0.5",
     author="Simon Klüttermann",
     author_email="Simon.Kluettermann@gmx.de",
     description="A simple polymorph evolutionary class system",
@@ -23,6 +23,6 @@ setuptools.setup(
 	'numpy',
 	'matplotlib',
       ],
-    download_url='https://github.com/psorus/xevo/archive/0.1.tar.gz',
+    download_url='https://github.com/psorus/xevo/archive/0.5.tar.gz',
     
 )  
