@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: xevo
-Version: 0.5
+Version: 0.51
 Summary: A simple polymorph evolutionary class system
 Home-page: https://github.com/psorus/xevo/
 Author: Simon Klüttermann
 Author-email: Simon.Kluettermann@gmx.de
 License: UNKNOWN
-Download-URL: https://github.com/psorus/xevo/archive/0.5.tar.gz
+Download-URL: https://github.com/psorus/xevo/archive/0.51.tar.gz
 Description: # xevo
         This is a simple set of classes to use for evolutionary coding in a polymorphic way. The central classes are given by "eobj", which implements the basic structure for an object that will be optimized by the second one "evo", which handles the optimization.
         
