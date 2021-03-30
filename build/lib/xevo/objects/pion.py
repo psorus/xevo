@@ -15,14 +15,14 @@ class pion(eobj):
 
   
   def randomize(s):
-    return a.__class__(np.random.random()*2+2)
+    return s.__class__(np.random.random()*2+2)
   def mutate(s):
     sn=s.q
     alpha=2*np.random.random()-1
     power=-10*np.random.random()
     sn+=alpha*np.exp(power)
-    return a.__class__(sn)
+    return s.__class__(sn)
   def calcstrength(s):
     return np.abs(s.q-np.pi)
   def _copy(s):
-    return a.__class__(s.q)
+    return s.__class__(s.q)
